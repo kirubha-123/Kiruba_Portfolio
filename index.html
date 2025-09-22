@@ -2,72 +2,114 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kirubhakaran C - UX & Web Designer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kirubhakaran C | Web Developer</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-  <header>
-    <div class="logo">kirubhakaran<span>c</span></div>
-    <nav>
-      <ul>
-        <li><a href="#projects">Selected Projects</a></li>
-        <li><a href="#designs">Designs</a></li>
-        <li><a href="#about">About me</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav>
+    <div class="nav-logo">
+      <i class="fas fa-user-circle"></i>
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-contact-btn">Contact</a>
+  </nav>
 
-  <main>
-    <section class="intro">
-      <h1>Hi, I'm Kirubhakaran</h1>
-      <h2 class="subtitle">A Web & UX Designer</h2>
+  <section id="home" class="container">
+    <div class="hero-left">
+      <img src="assets/profile/profile.jpg" alt="Kirubhakaran C" class="profile-img" />
+    </div>
+    <div class="hero-right">
+      <div class="hero-title">KIRUBHAKARAN C</div>
+      <h1>
+        I'm a Web <span class="accent">Developer</span>
+      </h1>
       <p>
-        I'm passionate about bringing real value and solving problems through web design and multimedia experiences.<br>Welcome to my portfolio.
+        I am dedicated to an education in Computer Science Engineering.<br />
+        Eager to apply my technical skills to create innovative solutions in a dynamic development environment.<br />
+        Passionate about building web solutions.
       </p>
-      <a class="cta-btn" href="#projects">CHECK OUT MY WORK</a>
-    </section>
-    <section class="showcase">
-      <div class="showcase-card tall">
-        <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=400&q=80" alt="Project Visual">
-        <div class="overlay">
-          <h3>User-centered designs and Agile methods</h3>
-        </div>
+      <a href="assets/resume/KIRUBHA-RESUME.pdf" download="Kirubhakaran_Resume.pdf" class="download-btn">
+        DOWNLOAD CV
+      </a>
+      <div class="profile-icons">
+        <a href="https://github.com/kirubhakaranc" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/kirubhakaran-c-0a485336" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
-      <div class="showcase-card wide">
-        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Project Visual">
-        <div class="overlay">
-          <h3>Have a nice trip visiting my portfolio</h3>
-          <p>Telling stories visually through meaningful experiences</p>
-        </div>
-      </div>
-      <div class="showcase-card">
-        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Multidisciplinary Designer">
-        <div class="overlay">
-          <h3>Multidisciplinary Designer</h3>
-          <p>Advanced skills in Agile, web and app design, UI/UX research, media applications, and project management.</p>
-        </div>
-      </div>
-      <div class="profile-card">
-        <img src="C:\Users\kirubhakaran\Downloads\profile.jpg" alt="Kirubhakaran C">
-        <div class="profile-info">
-          <span class="name">Kirubhakaran C</span>
-          <span class="role">Web Designer</span>
-          <p>B.E. CSE | Hindusthan Institute of Technology<br>Full-stack & UI/UX | App Development</p>
-          <div class="contact-info">
-            <span>📞 8148198241</span>
-            <span>📧 <a href="mailto:kirubhakirubha92@gmail.com">kirubhakirubha92@gmail.com</a></span>
-            
-              <a href="https://github.com/kirubhakaranc" target="_blank">github</a>
-              <a href="https://linkedin.com/in/kirubhakaran-c-0a485336" target="_blank" >LinkedIn</a>
-          
-          </div>
-        </div>
-        <a class="start-project-btn" href="#contact">Let's start a project together!</a>
-      </div>
-    </section>
-  </main>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am dedicated to an education in Computer Science Engineering. I am committed to continuous learning and eager to apply my technical skills to create innovative solutions in a dynamic development environment.
+    </p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <img src="C:\port\Assets\skills img\html5 img.jpg" alt="HTML5" title="HTML5" />
+      <img src="C:\port\Assets\skills img\css3 img.jpg" alt="CSS3" title="CSS3" />
+      <img src="C:\port\Assets\skills img\javascript img.jpg" alt="JavaScript" title="JavaScript" />
+      <img src="C:\port\Assets\skills img\react img.jpg" alt="React" title="React" />
+      <img src="C:\port\Assets\skills img\django img.jpg" alt="Django" title="Django" />
+      <img src="C:\port\Assets\skills img\mongodb img.jpg" alt="MongoDB" title="MongoDB" />
+      <img src="C:\port\Assets\skills img\nextjs img.jpg" alt="Next.js" title="Next.js" />
+      <img src="C:\port\Assets\skills img\firebase img.jpg" alt="Firebase" title="Firebase" />
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>IoT based Public Toilet Cleaning</h3>
+      <p>Focused on hygiene using IoT technology.</p>
+    </div>
+    <div class="project-card">
+      <h3>Direct Market Access for Farmers platform</h3>
+      <p>Connects farmers directly with buyers using React and Django.</p>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <ul>
+      <li>B.E Computer Science Engineering, Hindusthan Institute of Technology, Anna University Autonomous, CGPA: 8.23 (2026)</li>
+      <li>HSC, Thanthai Hans Roever Matric School, State Board, 80% (2022)</li>
+      <li>SSLC, Thanthai Hans Roever Matric School, State Board, 61% (2020)</li>
+    </ul>
+  </section>
+
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <a href="C:\port\Assets\resume\KIRUBHA RESUME.pdf" download="Kirubhakaran_Resume.pdf" class="download-btn">Download Resume</a>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <ul>
+      <li>Address: 255DA, Vadakkumadevi Road, Royal Nagar, Perambalur</li>
+      <li>Email: kirubhakirubha92@gmail.com</li>
+      <li>Mobile: 8148198241</li>
+    </ul>
+    <div class="profile-icons">
+      <a href="https://github.com/kirubhakaranc" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/kirubhakaran-c-0a485336" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Kirubhakaran C. All rights reserved.</p>
+  </footer>
 </body>
 </html>
