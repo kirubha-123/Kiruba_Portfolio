@@ -3,112 +3,289 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kirubhakaran C | Web Developer</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Kirubhakaran C | Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Kirubhakaran C, full stack developer building practical web products." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav>
-    <div class="nav-logo">
-      <i class="fas fa-user-circle"></i>
-    </div>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <a href="#contact" class="nav-contact-btn">Contact</a>
-  </nav>
+  <div class="page-glow"></div>
 
-  <section id="home" class="container">
-    <div class="hero-left">
-      <img src="https://raw.githubusercontent.com/kirubha-123/Kiruba_Portfolio/refs/heads/main/Assets/Kirubha%20profile.jpg" alt="Kirubhakaran C" class="profile-img" />
-    </div>
-    <div class="hero-right">
-      <div class="hero-title">KIRUBHAKARAN C</div>
-      <h1>
-        I'm a Web <span class="accent">Developer</span>
-      </h1>
-      <p>
-        I am dedicated to an education in Computer Science Engineering.<br />
-        Eager to apply my technical skills to create innovative solutions in a dynamic development environment.<br />
-        Passionate about building web solutions.
-      </p>
-      <a href="https://github.com/kirubha-123/Kiruba_Portfolio/blob/main/Assets/resume/KIRUBHAKARAN%20(2).pdf" class="download-btn">
-        DOWNLOAD CV
+  <header class="site-header" id="top">
+    <nav class="nav-wrap">
+      <a href="#home" class="brand">
+        <span class="brand-badge">KC</span>
+        <span class="brand-text">Kirubhakaran C</span>
       </a>
-    </div>
-  </section>
 
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-      I am dedicated to an education in Computer Science Engineering. I am committed to continuous learning and eager to apply my technical skills to create innovative solutions in a dynamic development environment.
-    </p>
-  </section>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-  <section id="skills" class="section">
-    <h2>Technical Skills</h2>
-    <div class="skills-grid">
-      <img src="Assets/skills img/html5 img.jpg" alt="HTML5" title="HTML5" />
-      <img src="Assets/skills img/css3 img.jpg" alt="CSS3" title="CSS3" />
-      <img src="Assets/skills img/javascript img.jpg" alt="JavaScript" title="JavaScript" />
-      <img src="Assets/skills img/react img.jpg" alt="React" title="React" />
-      <img src="Assets/skills img/django img.jpg" alt="Django" title="Django" />
-      <img src="Assets/skills img/mongodb img.jpg" alt="MongoDB" title="MongoDB" />
-      <img src="Assets/skills img/nextjs img.jpg" alt="Next.js" title="Next.js" />
-      <img src="Assets/skills img/firebase img.jpg" alt="Firebase" title="Firebase" />
-      <img src="Assets/skills img/nodejs img.jpg" alt="Node.js" title="Node.js" />
-      <img src="Assets/skills img/expressjs img.jpg" alt="Express.js" title="Express.js" />
-      <img src="Assets/skills img/vuejs img.jpg" alt="Vue.js" title="Vue.js" />
-    </div>
-  </section>
+      <ul id="mainMenu" class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
 
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>IoT based Public Toilet Cleaning</h3>
-      <p>Focused on hygiene using IoT technology.</p>
-    </div>
-    <div class="project-card">
-      <h3>Direct Market Access for Farmers platform</h3>
-      <p>Connects farmers directly with buyers using React and Django.</p>
-    </div>
-  </section>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        <span>Dark</span>
+      </button>
 
-  <section id="education" class="section">
-    <h2>Education</h2>
-    <ul>
-      <li>B.E Computer Science Engineering, Hindusthan Institute of Technology, Anna University Autonomous, CGPA: 8.23 (2026)</li>
-      <li>HSC, Thanthai Hans Roever Matric School, State Board, 80% (2022)</li>
-      <li>SSLC, Thanthai Hans Roever Matric School, State Board, 61% (2020)</li>
-    </ul>
-  </section>
+      <a href="Assets/resume/KIRUBHAKARAN_Resume.pdf" class="cta-btn" target="_blank">View Resume</a>
+    </nav>
+  </header>
 
-  <section id="resume" class="section">
-    <h2>Resume</h2>
-    <a href="https://github.com/kirubha-123/Kiruba_Portfolio/blob/main/Assets/resume/KIRUBHAKARAN%20(2).pdf" class="download-btn">Download Resume</a>
-  </section>
+  <main>
+    <section id="home" class="hero section-wrap reveal">
+      <div class="hero-image-wrap">
+        <img src="Assets/Kirubha profile.jpg" alt="Portrait of Kirubhakaran C" class="hero-image" />
+      </div>
 
-  <section id="contact" class="section">
-    <h2>Contact Me</h2>
-    <ul>
-      <li>Address: 255DA, Vadakkumadevi Road, Royal Nagar, Perambalur</li>
-      <li>Email: kirubhakirubha92@gmail.com</li>
-      <li>Mobile: 8148198241</li>
-    </ul>
-    <div class="profile-icons">
-      <a href="https://github.com/kirubha-123" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/kirubhakaran-c-0a485336b/" target="_blank"><i class="fab fa-linkedin"></i></a>
-    </div>
-  </section>
+      <div class="hero-content">
+        <p class="eyebrow">Full Stack Developer</p>
+        <h1>Building clear, useful products for real users.</h1>
+        <p class="hero-copy">
+          Computer Science Engineering graduate with a strong foundation in modern web development.
+          I enjoy turning ideas into fast, clean, and maintainable products.
+        </p>
 
-  <footer>
-    <p>© 2025 Kirubhakaran C. All rights reserved.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="primary-btn">Explore Projects</a>
+          <a href="#contact" class="ghost-btn">Let us Connect</a>
+        </div>
+
+        <div class="quick-stats">
+          <article>
+            <h3>18+</h3>
+            <p>Tech Skills</p>
+          </article>
+          <article>
+            <h3>3</h3>
+            <p>Major Projects</p>
+          </article>
+          <article>
+            <h3>2026</h3>
+            <p>Graduation Year</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-wrap reveal">
+      <div class="section-title">
+        <p>About</p>
+        <h2>Current Focus</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I am focused on full stack application development with strong interest in frontend performance,
+          backend reliability, and practical product design. I value teamwork, consistency, and continuous learning.
+        </p>
+        <div class="about-cards">
+          <article>
+            <h3>Frontend</h3>
+            <p>Responsive interfaces with HTML5, CSS3, JavaScript, React.js, Next.js, AngularJS, and TypeScript.</p>
+          </article>
+          <article>
+            <h3>Backend</h3>
+            <p>APIs and server-side systems using Node.js, Express.js, PHP, Python, and Spring Boot.</p>
+          </article>
+          <article>
+            <h3>Database</h3>
+            <p>Data modeling and integration with MongoDB, MySQL, and Firebase.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-wrap reveal">
+      <div class="section-title">
+        <p>Stack</p>
+        <h2>Technical Skills</h2>
+      </div>
+      <div class="skills-categories">
+        <article class="skills-card">
+          <h3>Frontend Technologies</h3>
+          <ul class="skill-list">
+            <li><i class="fa-brands fa-html5" aria-hidden="true"></i>HTML5</li>
+            <li><i class="fa-brands fa-css3-alt" aria-hidden="true"></i>CSS3</li>
+            <li><i class="fa-brands fa-js" aria-hidden="true"></i>JavaScript (ES6+)</li>
+            <li><i class="fa-brands fa-react" aria-hidden="true"></i>React.js</li>
+            <li><i class="fa-solid fa-n" aria-hidden="true"></i>Next.js</li>
+            <li><i class="fa-brands fa-angular" aria-hidden="true"></i>AngularJS (Basic)</li>
+            <li><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i>Responsive Web Design</li>
+            <li><i class="fa-solid fa-code" aria-hidden="true"></i>TypeScript</li>
+          </ul>
+        </article>
+
+        <article class="skills-card">
+          <h3>Backend Technologies</h3>
+          <ul class="skill-list">
+            <li><i class="fa-brands fa-node-js" aria-hidden="true"></i>Node.js</li>
+            <li><i class="fa-solid fa-network-wired" aria-hidden="true"></i>Express.js</li>
+            <li><i class="fa-brands fa-php" aria-hidden="true"></i>PHP</li>
+            <li><i class="fa-brands fa-python" aria-hidden="true"></i>Python</li>
+            <li><i class="fa-solid fa-leaf" aria-hidden="true"></i>Spring Boot</li>
+          </ul>
+        </article>
+
+        <article class="skills-card">
+          <h3>Databases</h3>
+          <ul class="skill-list">
+            <li><i class="fa-solid fa-database" aria-hidden="true"></i>MongoDB</li>
+            <li><i class="fa-solid fa-table" aria-hidden="true"></i>MySQL</li>
+            <li><i class="fa-solid fa-fire" aria-hidden="true"></i>Firebase</li>
+          </ul>
+        </article>
+
+        <article class="skills-card">
+          <h3>Tools</h3>
+          <ul class="skill-list">
+            <li><i class="fa-brands fa-git-alt" aria-hidden="true"></i>Git</li>
+            <li><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</li>
+            <li><i class="fa-solid fa-code" aria-hidden="true"></i>VS Code</li>
+            <li><i class="fa-solid fa-globe" aria-hidden="true"></i>Netlify</li>
+            <li><i class="fa-solid fa-cloud" aria-hidden="true"></i>Vercel</li>
+            <li><i class="fa-solid fa-server" aria-hidden="true"></i>Render</li>
+          </ul>
+        </article>
+
+        <article class="skills-card">
+          <h3>Programming Languages</h3>
+          <ul class="skill-list">
+            <li><i class="fa-brands fa-java" aria-hidden="true"></i>Java</li>
+            <li><i class="fa-brands fa-js" aria-hidden="true"></i>JavaScript</li>
+            <li><i class="fa-brands fa-python" aria-hidden="true"></i>Python (Basics)</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section-wrap reveal">
+      <div class="section-title">
+        <p>Work</p>
+        <h2>Featured Projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>IoT Based Public Toilet Cleaning</h3>
+          <p>
+            Built an IoT-driven monitoring concept to improve hygiene workflows,
+            helping teams identify cleaning needs faster and maintain public sanitation quality.
+          </p>
+          <div class="project-tags">
+            <span>IoT</span>
+            <span>Automation</span>
+            <span>Monitoring</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Direct Market Access for Farmers</h3>
+          <p>
+            Tech Stack: Web Technologies.
+            Built a full-stack Farmers Market platform connecting farmers and buyers for direct product sales.
+            Developed secure authentication, product listing, order management, and farmer-buyer interaction features.
+            Implemented the frontend with React.js and backend APIs with Node.js/Express, using MongoDB for data storage.
+            Optimized application performance and ensured scalability.
+          </p>
+          <div class="project-tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Marketplace</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>StartupVerse - Startup Idea Validator Platform</h3>
+          <p>
+            Developed a full-stack web platform for startup idea submission and validation.
+            Implemented user authentication, idea posting, voting, and commenting features.
+            Designed real-time data storage using Firebase Firestore.
+            Deployed the application using Vercel and Firebase services.
+          </p>
+          <div class="project-tags">
+            <span>Next.js</span>
+            <span>Firebase</span>
+            <span>Firestore</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section-wrap reveal">
+      <div class="section-title">
+        <p>Academic</p>
+        <h2>Education</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <h3>B.E Computer Science Engineering</h3>
+          <p>Hindusthan Institute of Technology, Anna University Autonomous</p>
+          <span>CGPA: 8.23 | 2026</span>
+        </article>
+        <article>
+          <h3>Higher Secondary (HSC)</h3>
+          <p>Thanthai Hans Roever Matric School</p>
+          <span>State Board: 80% | 2022</span>
+        </article>
+        <article>
+          <h3>Secondary School (SSLC)</h3>
+          <p>Thanthai Hans Roever Matric School</p>
+          <span>State Board: 61% | 2020</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section-wrap reveal">
+      <div class="section-title">
+        <p>Contact</p>
+        <h2>Lets Build Something</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Get in Touch</h3>
+          <p>Perambalur, Tamil Nadu, India</p>
+          <p><a href="mailto:kirubhakirubha92@gmail.com">kirubhakirubha92@gmail.com</a></p>
+          <p><a href="tel:+918148198241">+91 81481 98241</a></p>
+          <div class="social-links">
+            <a href="https://github.com/kirubha-123" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kirubhakaran-c-0a485336b/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="primary-btn">Send Message</button>
+          <p id="status" class="status-text"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Copyright <span id="year"></span> Kirubhakaran C. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
